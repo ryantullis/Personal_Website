@@ -1,0 +1,13 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mat-mdc-card{
+    width: 75%;
+    margin-top: 5em;
+}
+.mat-mdc-card-title{
+    font-size: 1.5em;
+}

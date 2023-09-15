@@ -11,7 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { ResumeComponent } from './resume/resume.component';
 //ng-icons
 import { NgIconsModule } from '@ng-icons/core';
-import { ionLogoGithub,ionLogoLinkedin } from '@ng-icons/ionicons';
+import { ionLogoGithub,ionLogoLinkedin, ionDocument } from '@ng-icons/ionicons';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { ionLogoGithub,ionLogoLinkedin } from '@ng-icons/ionicons';
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
-    NgIconsModule.withIcons({ ionLogoGithub,ionLogoLinkedin }),
+    NgIconsModule.withIcons({ ionLogoGithub,ionLogoLinkedin,ionDocument }),
   ],
   providers: [],
   bootstrap: [AppComponent]
