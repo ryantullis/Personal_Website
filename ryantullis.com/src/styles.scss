@@ -84,7 +84,11 @@ $ryantulliscom-theme: mat.define-dark-theme((
 
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+}
 
 app-root {
   display: block;
@@ -99,7 +103,6 @@ app-root {
 }
 .mat-mdc-tab.mdc-tab{
   width: 33%;
-  
 }
 
 .mat-mdc-tab-body-wrapper{
