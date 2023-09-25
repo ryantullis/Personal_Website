@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ryantullisdotcom", "ryantullisdotcom\", "{7F1FAEA9-ABCB-4EE9-9AEB-26C08377589F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52744"
+		Debug.AspNetCompiler.PhysicalPath = "ryantullisdotcom\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52744\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52744"
+		Release.AspNetCompiler.PhysicalPath = "ryantullisdotcom\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52744\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52744"
+		SlnRelativePath = "ryantullisdotcom\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalAPI", "PersonalAPI\PersonalAPI.csproj", "{3EBF6079-CF85-4A0C-ACAE-FD2CE06D21B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F1FAEA9-ABCB-4EE9-9AEB-26C08377589F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1FAEA9-ABCB-4EE9-9AEB-26C08377589F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1FAEA9-ABCB-4EE9-9AEB-26C08377589F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1FAEA9-ABCB-4EE9-9AEB-26C08377589F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{3EBF6079-CF85-4A0C-ACAE-FD2CE06D21B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBF6079-CF85-4A0C-ACAE-FD2CE06D21B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBF6079-CF85-4A0C-ACAE-FD2CE06D21B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBF6079-CF85-4A0C-ACAE-FD2CE06D21B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1D28B5E-0FBD-4988-A764-94A2D325C2E5}
+	EndGlobalSection
+EndGlobal
